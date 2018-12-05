@@ -1,0 +1,182 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    direction:rtl;
+}
+body, table {
+    font-family: 'Segoe UI', Tahoma;
+    font-size: 14px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.toptop{
+    background-color:lightgray;
+    height:17px;
+    width:100%;
+}
+    .toptop p {
+        padding-left: 60px;
+        font-size: 13px;
+        line-height: 100%;
+        font-family: 'Yekan';
+    }
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
+tr {
+    cursor: default;
+}
+
+.highlight {
+    color:lawngreen;
+}
+
+#table-wrapper {
+    position: relative;
+}
+
+#table-scroll {
+    height: 200px;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+#table-wrapper table {
+    width: 100%;
+}
+
+    #table-wrapper table * {
+        padding: 10px 4px 10px 4px;
+        border: 1px solid white;
+        
+       
+    }
+    #table-wrapper table th {
+        color: white; 
+        background-color: #2184be;
+    }
+    #table-wrapper table td {
+        /*color: #2184be;*/
+        background-color: lightgray;
+        
+        margin: 0 auto;
+    }
+    .fa{
+        font-size:7px;
+    }
+
+    #table-wrapper table thead th .text {
+        position: absolute;
+        top: -20px;
+        z-index: 2;
+        height: 20px;
+        width: 35%;
+        border: 1px solid red;
+    }
+.form-group {
+    text-align: right;
+}
+.text-right{
+    margin-bottom:20px;
+}
+/* Style buttons */
+.btn {
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    font-family:inherit;
+}
+
+    /* Darker background on mouse-over */
+    .btn:hover {
+        background-color: RoyalBlue;
+    }
+    .btn i{
+        margin-left:5px;
+    }
+    .wizard{
+        text-align: right;
+    }
+footer {
+    /*background-color: #284b80*/
+    width: 100%;
+    background-color: lightgrey;
+    height: 50px;
+    color: #808080;
+    vertical-align: middle;
+    line-height: 50px;
+}
+.font-yekan {
+    font-family: Yekan,'Yekan',tahoma;
+    
+}
+
+#ttable{
+    color:white;
+}
+​ .navawe {
+    color:white;font-size:30px;
+}
+.direction {
+    padding-left: 15px;
+    margin-left:15px;
+    
+    color: #c2b1b1;
+    font-size: 17px;
+    text-align: justify;
+    line-height: 200%;
+    word-spacing:3px;
+    letter-spacing:0px;
+    border-right:1px solid lightgray;
+}
+.direction li{
+    margin:2px;
+}
+.steps{
+    font-size:16px;
+}
+.actions{
+    font-size:20px;
+    line-height:100%;
+}
+.fa-phone {
+    color: #2184be;
+    line-height:100%;
+    font-size:13px;
+    
+}
+#date1{
+    font-family:Tahoma;
+    
+}
+
+
+

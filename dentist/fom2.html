@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</head>
+<body style="direction:rtl;" class="text-right">
+
+    <div class="container">
+        <br>
+        <h3 class="text-center">اطلاعات مراجعه کننده</h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4">
+                <h2 class="text-center">پرونده دارم(بیمار فعلی)</h2>
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <label for="code">شماره پرونده:</label>
+                        <input type="code" class="form-control" id="code" placeholder="ورود شماره پرونده" name="code">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name">نام:</label>
+                        <input type="name" class="form-control" id="name" placeholder="ورود نام" name="name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="family">نام خانوادگی:</label>
+                        <input type="family" class="form-control" id="family" placeholder="ورود نام خانوادگی" name="family">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tell">تلفن همراه:</label>
+                        <input type="tell" class="form-control" id="tell" placeholder="ورود تلفن همراه" name="tell">
+                    </div>
+
+                    
+                    <button type="submit" class="btn btn-primary">جستجو</button>
+                </form>
+            </div>
+
+
+            <div class="col-sm-4">
+                <h2 class="text-center">پرونده ندارم(بیمارجدید)</h2>
+                <form action="/action_page.php">
+
+                    <div class="form-group">
+                        <input type="name" class="form-control" id="name" placeholder="نام" name="email">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="family" class="form-control" id="family" placeholder="نام خانوادگی" name="family">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="tell" class="form-control" id="tell" placeholder="تلفن همراه" name="tell">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="reason" class="form-control" id="reason" placeholder="علت مراجعه" name="reason">
+                    </div>
+
+                    
+
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary" disabled>ثبت</button>
+                        <button type="button" class="btn btn-primary">+</button>
+                        </div>
+
+
+                </form>
+            </div>
+            <div class="col-sm-2"></div>
+
+        </div>
+</div>
+</body>
+</html>
